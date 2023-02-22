@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Open Links in Single Private Window",
+  "version": "1.0.1",
+  "description": "Open links in a single private window.",
+  "permissions": [
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
